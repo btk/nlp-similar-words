@@ -1,0 +1,25 @@
+{
+  "name": "nlp-similar-words",
+  "version": "1.0.0",
+  "description": "An HTTP api client that will supply similar words for given ?w= get query with natural language processing, using wordnet-db",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btk/nlp-similar-words.git"
+  },
+  "author": "btk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btk/nlp-similar-words/issues"
+  },
+  "homepage": "https://github.com/btk/nlp-similar-words#readme",
+  "dependencies": {
+    "natural": "^0.5.4",
+    "typo-js": "^1.0.3",
+    "wordnet-db": "^3.1.6"
+  }
+}
